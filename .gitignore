@@ -1,0 +1,41 @@
+### macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+### Environment and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+### Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+### Dependencies and build output
+node_modules/
+vendor/
+dist/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+### Database exports and local state
+*.dump
+*.bak
+*.sqlite
+*.sqlite3
